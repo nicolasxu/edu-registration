@@ -28,8 +28,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{test: /\.scss$/, loader: 'style!css!sass'}, 
-			{ test: /\.tpl$/,  loader: 'raw' },
-			{test: /\.html$ /, loader: 'html'}
+			{test: /\.html$ /, loader: 'raw'}
 		]
 	}
 }

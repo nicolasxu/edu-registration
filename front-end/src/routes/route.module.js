@@ -8,11 +8,10 @@ module.exports = angular.module('route.module', [uiRouter, am.name])
 routeConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
 function routeConfig($stateProvider, $urlRouterProvider) {
 	$stateProvider
-		.state('state1', {
-			url: '/state1---',
-			template: '<h1 ng-click="vm.greeting($event)">{{vm.name}}</h1>',
-			// templateUrl: 'views/state1.html'
-			controller: 'step_1_Ctrl',
+		.state('step-1', {
+			url: '/step-1',
+			template: require('html!../application.module/step_1/step1.html'),
+			controller: 'step_1_ctrl',
 			controllerAs: 'vm'
 		})
 		.state('state2', {
