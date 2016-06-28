@@ -1,0 +1,12 @@
+
+
+
+Implement Front-end June 28, 2016:
+
+  ☐ app module
+  ☐ route module @critical
+    ☐ general info step 1
+    ☐ general info step 2
+    ☐ ...
+  ☐ Style sheet including responsive breakpoint
+  ☐ Load Boodstrap 3 in webpack
