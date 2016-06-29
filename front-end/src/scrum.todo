@@ -6,7 +6,25 @@ Implement Front-end June 28, 2016:
   ✔ app module @done (16-06-28 18:36)
   ✔ route module @critical @done (16-06-28 18:36)
     ☐ general info step 1
+    ☐ transition to next and prev page
+    ☐ progress indicator
     ☐ general info step 2
     ☐ ...
   ☐ Style sheet including responsive breakpoint
   ✔ Load Boodstrap 3 in webpack @done (16-06-29 13:02)
+  ☐ load files with angularjs
+  ☐ retrieve application progress front-end
+  ☐ regrieve application progress back-end
+  ☐ admission staff login front-end
+  ☐ admission staff login back-end
+  ☐ admission staff browse applications
+    ☐ search by name, email, status and combination (front-end and back-end)
+    ☐ list result pagination (front-end and back-end)
+  ☐ email notification to student
+  ☐ email notification to admission staff
+  ☐ admission staff user registration
+  ☐ admin staff configuration (name, email, notification preference)
+  ☐ admission staff approval by super user
+  ☐ 3rd party requirement -- unknown
+  ☐ appointment scheduling
+
