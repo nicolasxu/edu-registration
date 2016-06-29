@@ -10,9 +10,14 @@ Implement Front-end June 28, 2016:
     ☐ progress indicator
     ☐ general info step 2
     ☐ ...
+  ☐ application step 1- 5 front-end
+  ☐ front-end api calling module, defer
+  ☐ application back-end api
+  ☐ application check email back-end api
   ☐ Style sheet including responsive breakpoint
   ✔ Load Boodstrap 3 in webpack @done (16-06-29 13:02)
-  ☐ load files with angularjs
+  ☐ upload files with angularjs
+  ☐ upload files back-end api
   ☐ retrieve application progress front-end
   ☐ regrieve application progress back-end
   ☐ admission staff login front-end
