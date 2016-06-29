@@ -1,8 +1,7 @@
-require('bootstrap-loader');
-require('./scss/style.scss');
 require('jquery');
 require('angular');
-
+require('bootstrap-loader');
+require('./scss/style.scss');
 
 var appModule = require('./app/app.module.js');
 
