@@ -28,7 +28,16 @@ module.exports = {
 	module: {
 		loaders: [
 			{test: /\.scss$/, loader: 'style!css!sass'}, 
-			{test: /\.html$ /, loader: 'raw'}
+			{test: /\.html$ /, loader: 'raw'},
+			{
+        test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: "url?limit=10000"
+      },
+      {
+        test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
+        loader: 'file'
+      },
+      { test: /bootstrap-sass\/assets\/javascripts\//, loader: 'imports?jQuery=jquery' },
 		]
 	}
 }
