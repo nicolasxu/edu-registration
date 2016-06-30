@@ -5,25 +5,25 @@ Implement Front-end June 28, 2016:
 
   ✔ app module @done (16-06-28 18:36)
   ✔ route module @critical @done (16-06-28 18:36)
-    ☐ general info step 1
+    ✔ general info step 1 @done (16-06-30 15:09)
     ☐ transition to next and prev page
     ☐ progress indicator
-    ☐ general info step 2
+    ☐ retrieve application progress front-end
+    ☐ regrieve application progress back-end
+    ✔ general info step 2 @done (16-06-30 15:09)
     ☐ ...
   ☐ application step 1- 5 front-end
   ✔ Use angular ui router multi-view to implement application left nav @done (16-06-29 17:26)
-  ☐ Fix the style of application navigation on left side of browser window
-    ☐ Add progress and percentage bar
+  ✔ Fix the style of application navigation on left side of browser window @done (16-06-30 15:09)
 
   ☐ front-end api calling module, defer
   ☐ application process back-end api
   ☐ application process check email back-end api
-  ☐ Style sheet including responsive breakpoint
+
   ✔ Load Boodstrap 3 in webpack @done (16-06-29 13:02)
   ☐ upload files with angularjs
   ☐ upload files back-end api
-  ☐ retrieve application progress front-end
-  ☐ regrieve application progress back-end
+
   ☐ admission staff login front-end
   ☐ admission staff login back-end
   ☐ admission staff browse applications
