@@ -17,8 +17,23 @@ function routeConfig($stateProvider, $urlRouterProvider) {
 					controllerAs: 'vm'
 				},
 				'application-step': {
-					template: require('html!../application.module/step_1/step1.html'),
+					template: require('html!../application.module/step_1/step_1.html'),
 					controller: 'step_1_ctrl',
+					controllerAs: 'vm'
+				}
+			}
+		})
+		.state('step-2', {
+			url: '/step-2',
+			views: {
+				'application-navigation': {
+					template: require('html!../application.module/application_navigation/application_navigation.html'),
+					controller: 'app_nav_ctrl',
+					controllerAs: 'vm'
+				},
+				'application-step': {
+					template: require('html!../application.module/step_2/step_2.html'),
+					controller: 'step_2_ctrl',
 					controllerAs: 'vm'
 				}
 			}
