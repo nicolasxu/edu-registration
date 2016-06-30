@@ -1,3 +1,38 @@
 <main class="application-content">
-	<h1 class="well">Step 3</h1>
+	<h1 class="well">EDUCATION</h1>
+	<div class="form-group width-60">
+	  <label for="exampleInputEmail1">List any admission tests you have taken</label>
+	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="schools">
+	</div>
+
+	<h3>Current School</h3>
+	<div class="form-group width-60">
+	  <label for="exampleInputEmail1">School Name</label>
+	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="school name">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputEmail1">Dates of Attendence</label>
+	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="date">
+	</div>
+
+	<p class="input-group">
+	  <input type="text" class="form-control" 
+	  uib-datepicker-popup="{{vm.format}}" 
+	  ng-model="vm.dt" 
+	  is-open="vm.popup1.opened" 
+	  datepicker-options="vm.dateOptions" 
+	  ng-required="true" 
+	  close-text="Close" 
+	  alt-input-formats="vm.altInputFormats" />
+	  <span class="input-group-btn">
+	    <button type="button" class="btn btn-default" ng-click="vm.open1()">
+	    <i class="glyphicon glyphicon-calendar"></i></button>
+	  </span>
+	  {{vm.popup1.opened}}
+	</p>
+
+	<h3>Other Schools Attended in the Past Three Years</h3>
+	
+	<h3>Transfer Information</h3>
 </main>
+

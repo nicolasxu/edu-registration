@@ -28,6 +28,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{test: /\.scss$/, loader: 'style!css!sass'}, 
+			{test: /\.css$/, loader: 'style!css'},
 			{test: /\.html$ /, loader: 'raw'},
 			{
         test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

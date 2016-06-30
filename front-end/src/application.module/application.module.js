@@ -4,8 +4,8 @@
 	module to handle student application
 */
 var angular = require('angular');
-
-module.exports = angular.module('application.module', []);
+var datepicker = require('angular-ui-bootstrap/src/datepicker');
+module.exports = angular.module('application.module', [datepicker]);
 
 require('./step_1/step_1.js');
 require('./application_navigation/application_navigation.js');
