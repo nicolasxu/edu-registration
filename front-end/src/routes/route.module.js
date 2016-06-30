@@ -10,9 +10,18 @@ function routeConfig($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state('step-1', {
 			url: '/step-1',
-			template: require('html!../application.module/step_1/step1.html'),
-			controller: 'step_1_ctrl',
-			controllerAs: 'vm'
+			views: {
+				'application-navigation': {
+					template: require('html!../application.module/application_navigation/application_navigation.html'),
+					controller: 'app_nav_ctrl',
+					controllerAs: 'vm'
+				},
+				'application-step': {
+					template: require('html!../application.module/step_1/step1.html'),
+					controller: 'step_1_ctrl',
+					controllerAs: 'vm'
+				}
+			}
 		})
 		.state('state2', {
 			url: '/state2---', 

@@ -8,9 +8,12 @@
 </head>
 <body>
 
-	<div ui-view></div>
+<div class="app-container">
+		<div ui-view="application-navigation"></div>
+		<div ui-view="application-step"></div>
+		<a ui-sref="step-1">Step 1</a>
+	  <a ui-sref="state2">State 2</a>
+</div>
 
-	<a ui-sref="step-1">Step 1</a>
-  <a ui-sref="state2">State 2</a>
 </body>
 </html>

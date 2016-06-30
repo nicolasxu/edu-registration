@@ -11,6 +11,10 @@ Implement Front-end June 28, 2016:
     ☐ general info step 2
     ☐ ...
   ☐ application step 1- 5 front-end
+  ✔ Use angular ui router multi-view to implement application left nav @done (16-06-29 17:26)
+  ☐ Fix the style of application navigation on left side of browser window
+    ☐ Add progress and percentage bar
+
   ☐ front-end api calling module, defer
   ☐ application back-end api
   ☐ application check email back-end api
@@ -33,4 +37,5 @@ Implement Front-end June 28, 2016:
   ☐ 3rd party requirement -- unknown
   ☐ appointment scheduling
   ☐ i18n internationalization
+
 
