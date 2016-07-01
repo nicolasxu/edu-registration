@@ -6,13 +6,13 @@ Implement Front-end June 28, 2016:
   ✔ app module @done (16-06-28 18:36)
   ✔ route module @critical @done (16-06-28 18:36)
     ✔ general info step 1 @done (16-06-30 15:09)
-    ☐ transition to next and prev page
+    ✔ transition to next and prev page @done (16-07-01 14:11)
     ☐ progress indicator
     ☐ retrieve application progress front-end
     ☐ regrieve application progress back-end
     ✔ general info step 2 @done (16-06-30 15:09)
     ☐ ...
-  ☐ application step 1- 5 front-end
+  ✔ application step 1- 5 front-end @done (16-07-01 14:11)
   ✔ Use angular ui router multi-view to implement application left nav @done (16-06-29 17:26)
   ✔ Fix the style of application navigation on left side of browser window @done (16-06-30 15:09)
 
