@@ -1,3 +1,108 @@
 <main class="application-content">
-	<h1 class="well">Step 5</h1>
+	<h1 class="well">Signature</h1>
+
+	<h3>Transfer Information</h3>
+
+	<form class="form-inline">
+	  <div class="form-group">
+	  	<p class="legal-signature">I, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">the undersigned, hereby permit EduBoston staff members, agents of EduBosotn, and my child’s Host Family to provide transportation for my child, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">, which includes but is not limited to transportation to and from school, school- related activities, extra-curricular activities, or other engagements, for the duration of the student’s participation in the Host Family program. I understand that giving such permission removes all liabilities from the Host Family and from EduBoston relating to any occurrences arising from such transportation, and I will not hold the Host Family or EduBoston, LLC liable for any damages or injuries arising from such transportation, and absolve them of all liabilities thereof. </p>
+	    
+	  </div>
+	</form>
+
+	<h3>Academic Release</h3>
+	<form class="form-inline">
+	  <div class="form-group">
+	  	<p class="legal-signature">I, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">, give my permission that my child’s, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">, academic grades, progress reports, disciplinary notices and all other documentation pertaining to his/her enrollment at your school be released to EduBoston, LLC. While my child is enrolled in EduBoston’s Program and enrolled at your school, EduBoston, LLC is their guardian, and needs to be informed of my child’s progress at your school. </p>
+	    
+	  </div>
+	</form>
+
+	<h3>Sports Participation Consent</h3>
+	<form class="form-inline">
+	  <div class="form-group">
+	  	<p class="legal-signature">I, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">, understand that athletic eligibility and participation is not guaranteed. If my child, <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name">, is able to participate in athletics, we agree not to hold EduBoston liable for any injuries that may occur from such participation. </p>
+	    
+	  </div>
+	</form>
+
+	<h3>Medical Authorization for Treatment</h3>
+	<form class="form-inline">
+	  <div class="form-group">
+	  	<p class="legal-signature">I/We, parents/guardians of (student’s full name), <input type="email" class="form-control" id="exampleInputEmail3" placeholder="your name"> ,Authorize the staff of EduBoston, LLC, American host parents, and the local representatives, for the duration of said student’s EduBoston program in the USA, as agents of the undersigned to consent to any medical or surgical diagnosis of treatment or hospital care which is deemed advisable by, and is rendered under the general supervision of, any licensed physician or surgeon, whether such treatment of diagnosis is tendered at the office of said physician or surgeon or at a hospital. In addition, we give permission to the United States immunization for TD or DPT, Hepatitis A or B, Polio, Measles, Rubella, or Mumps, if such immunization is required by the U.S. High School for enrollment. We agree to cover the cost of any and all medical treatment or immunizations while our son/daughter is in the United States. </p>
+	  </div>
+	</form>
+
+	<hr>
+	
+	<ul class="final-signature">
+		<li class="signature-row">
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="exampleInputName2">Student Signature</label>
+					<input type="text" class="form-control" id="exampleInputEmail3" placeholder="student signature">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputName2">Date</label>
+					<input type="text" class="form-control" 
+					uib-datepicker-popup="{{vm.format}}" 
+					ng-model="vm.dt" 
+					is-open="vm.popup1.opened" 
+					datepicker-options="vm.dateOptions" 
+					ng-required="true" 
+					close-text="Close" 
+					alt-input-formats="vm.altInputFormats" />
+					<span class="input-group-btn">
+					  <button type="button" class="btn btn-default" ng-click="vm.open1()">
+					  <i class="glyphicon glyphicon-calendar"></i></button>
+					</span>
+				</div>
+			</form>
+			<div class="checkbox">
+			  <label>
+			    <input type="checkbox"> Agree to type my full name as a signature
+			  </label>
+			</div>
+		</li>
+		<li class="signature-row">
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="exampleInputName2">Father Signature</label>
+					<input type="text" class="form-control" id="exampleInputEmail3" placeholder="student signature">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputName2">Date</label>
+					<input type="text" class="form-control" id="exampleInputEmail3" placeholder="student signature">
+				</div>
+			</form>
+			<div class="checkbox">
+			  <label>
+			    <input type="checkbox"> Agree to type my full name as a signature
+			  </label>
+			</div>
+		</li>
+		<li class="signature-row">
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="exampleInputName2">Mother Signature</label>
+					<input type="text" class="form-control" id="exampleInputEmail3" placeholder="student signature">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputName2">Date</label>
+					<input type="text" class="form-control" id="exampleInputEmail3" placeholder="student signature">
+				</div>
+			</form>
+			<div class="checkbox">
+			  <label>
+			    <input type="checkbox"> Agree to type my full name as a signature
+			  </label>
+			</div>
+		</li>
+	</ul>
+
+  <a type="submit" class="btn btn-primary" ui-sref="step-4">Previous Step</a>
+
+	<a type="submit" class="btn btn-primary" ui-sref="step-6">Save and Preview</a>
+
+
 </main>

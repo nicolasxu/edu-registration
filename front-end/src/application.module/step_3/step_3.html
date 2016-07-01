@@ -11,28 +11,137 @@
 	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="school name">
 	</div>
 	<div class="form-group width-60">
-	  <label for="exampleInputEmail1">Dates of Attendence</label>
+	  
 	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="date">
 	</div>
+	
+	<div class="form-group width-60 date-from-to">
+		<label for="exampleInputEmail1">Dates of Attendence</label>
+		<div class="from">
+			<label for="exampleInputEmail1">from</label>
+			<div class="input-group resetf-form-ctrl">
+				<input type="text" class="form-control" 
+				uib-datepicker-popup="{{vm.format}}" 
+				ng-model="vm.dt" 
+				is-open="vm.popup1.opened" 
+				datepicker-options="vm.dateOptions" 
+				ng-required="true" 
+				close-text="Close" 
+				alt-input-formats="vm.altInputFormats" />
+				<span class="input-group-btn">
+				  <button type="button" class="btn btn-default" ng-click="vm.open1()">
+				  <i class="glyphicon glyphicon-calendar"></i></button>
+				</span>
+			</div>
+		</div>
+		<div class="to">
+			<label for="exampleInputEmail1">to</label>
+			<div class="input-group resetf-form-ctrl">
+				<input type="text" class="form-control" 
+				uib-datepicker-popup="{{vm.format}}" 
+				ng-model="vm.dt" 
+				is-open="vm.popup2.opened" 
+				datepicker-options="vm.dateOptions" 
+				ng-required="true" 
+				close-text="Close" 
+				alt-input-formats="vm.altInputFormats" />
+				<span class="input-group-btn">
+				  <button type="button" class="btn btn-default" ng-click="vm.open2()">
+				  <i class="glyphicon glyphicon-calendar"></i></button>
+				</span>
+			</div>
+		</div>
+	</div>
 
-	<p class="input-group">
-	  <input type="text" class="form-control" 
-	  uib-datepicker-popup="{{vm.format}}" 
-	  ng-model="vm.dt" 
-	  is-open="vm.popup1.opened" 
-	  datepicker-options="vm.dateOptions" 
-	  ng-required="true" 
-	  close-text="Close" 
-	  alt-input-formats="vm.altInputFormats" />
-	  <span class="input-group-btn">
-	    <button type="button" class="btn btn-default" ng-click="vm.open1()">
-	    <i class="glyphicon glyphicon-calendar"></i></button>
-	  </span>
-	  {{vm.popup1.opened}}
-	</p>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Home Address</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="home address line 1">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">City</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
+	</div>  
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">State/Province</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="state/province">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Country</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="country">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Postal Code</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="postal code">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Head or Counselor Name</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="counselor name">
+	</div>
 
 	<h3>Other Schools Attended in the Past Three Years</h3>
+	<div class="form-group width-60">
+	  <label for="exampleInputEmail1">School Name</label>
+	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="school name">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">City</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">State/Province</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="state/province">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Country</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="country">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Postal Code</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="postal code">
+	</div>
+
+	<div class="form-group width-60">
+	  <label for="exampleInputEmail1">School Name</label>
+	  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="school name">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">City</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">State/Province</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="state/province">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Country</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="country">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Postal Code</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="postal code">
+	</div>
 	
 	<h3>Transfer Information</h3>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">I-20 #</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="I-20 number">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Contact Person at Current School</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="contact person in current school">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Phone</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="phone">
+	</div>
+	<div class="form-group width-60">
+	  <label for="exampleInputPassword1">Email</label>
+	  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="email">
+	</div>
+
+  <a type="submit" class="btn btn-primary" ui-sref="step-2">Previous Step</a>
+
+	<a type="submit" class="btn btn-primary" ui-sref="step-4">Save and Continue</a>
+
 </main>
 

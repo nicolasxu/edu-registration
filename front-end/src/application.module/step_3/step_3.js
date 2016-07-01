@@ -21,6 +21,9 @@ function step_3_ctrl () {
   this.popup1 = {
     opened: false
   };
+  this.popup2 = {
+  	opened: false
+  }
 
 }
 
@@ -29,7 +32,12 @@ step_3_ctrl.prototype.greeting = function () {
 }
 
 step_3_ctrl.prototype.open1 = function () {
+
 	this.popup1.opened = true;
+}
+step_3_ctrl.prototype.open2 = function () {
+
+	this.popup2.opened = true;
 }
 
 function disabled(data) {

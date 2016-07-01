@@ -114,7 +114,38 @@ $nav-bar-width: 220px;
 			}
 		}
 	}
+	.date-from-to {
+		label {
+			display: block;
+		}
+		.from {
+			label {
+				color: #999999
+			}
+			display: inline-block;
+			width: 49%;
+		}
+		.to {
+			label {
+				color: #999999
+			}
+			display: inline-block;
+			width: 49%;
+		}
+		.resetf-form-ctrl {
+			.form-control {
+				height: auto;
+			}
+		}
+	}
+	.legal-signature {
+		line-height: 2.5em;
+	}
 
-
-
+	.final-signature {
+		padding-left: 0;
+		.signature-row {
+			list-style: none;
+		}
+	}
 }
